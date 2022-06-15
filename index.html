@@ -12,20 +12,24 @@
 <body>
 
 <main>
-    
-    <form action="" onsubmit="searchPokemon(event)">
-        <Label id="who">Who's that Pokémon?</Label>
-        <input type="text" name="pokemon" autocomplete="off">
-    </form>
-    <div data-poke-card class="poke-card">
-        <div data-poke-name>Pokedex</div>
-        <div data-poke-img-container class="img-container">
-            <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
+    <section id="section1">
+        <form action="" onsubmit="searchPokemon(event)">
+            <Label id="who">Who's that Pokémon?</Label>
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+        <div data-poke-card class="poke-card">
+            <div data-poke-name>Pokedex</div>
+            <div data-poke-img-container class="img-container">
+                <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
         </div>
-        <div data-poke-id></div>
-        <div data-poke-types class="poke-types"></div>
-        <div data-poke-stats class="poke-stats"></div>
-    </div>
+    </section>
+    <section id="section2">
+        <li>Pokemon1</li>
+    </section>
 
 </main>
     
